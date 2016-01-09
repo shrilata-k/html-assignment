@@ -9,30 +9,37 @@
 .header{
 	width: 940px;
 	margin: 0px auto;
+	overflow: hidden;
 }
 .wrapper{
-	border: 1px solid black;
 	background-color: black;
-	text-align: center;
 }
 .LOGO{
-	width:468px;
 	/*height:50px;*/
 	float: left;
-    font-size: 40px;
+    font-size: 30px;
     font-style: normal; 
     /*padding-top: 5px;*/
     color: white;
+    text-decoration:none;
 }
-.top1 li{
-	width:94px;
+.top1{
+	overflow: hidden;
+	float:right;
+}
+.top1 li{	
 	list-style: none;
 	/*height:50px;*/
 	float: left;
     font-size: 20px;
     font-style: normal; 
-    /*padding-top: 15px;*/
     color: white;
+}
+.top1 li a{
+	padding:12px 10px;
+	text-decoration: none;
+	color: white;
+	display: block;
 }
 .wrapper1{
 	border-bottom: 1px dotted gray;
@@ -43,26 +50,17 @@
     padding-bottom:20px;
 }
 .w1{
-	width:940px;
-	/*height:45px;*/
-	float: left;
-    font-size: 36px;
+	font-size: 36px;
     font-style: normal; 
     color: black;
     font-weight: bold;
 }
 .w2{
-	width:940px;
-	/*height:45px;*/
-	float: left;
-    font-size: 36px;
+	font-size: 36px;
     font-style: normal; 
     color: gray;
     }
 .w3{
-	width:940px;
-	/*height:62px;*/
-	float: left;
     font-size: 20px;
     font-style: normal; 
     color: gray;
@@ -75,12 +73,15 @@
     /*margin: 10px 180px 10px 180px; */
     padding-bottom: 30px;
 }
+.wrapper3{
+	overflow: hidden;
+}
 .wrapper3 li{
 	border: 1px solid blue;
 	background-color: blue;
 	text-align: center;
 	width: 290px;
-	/*height: 350px;*/
+	height: 400px;
 	float: left;
 	margin: 10px 10px 10px 10px;
 	list-style: none;
@@ -93,10 +94,7 @@
     font-size: 30px;
 }
 
-/*.b{
-	height:200px;
-}*/
-
-div{
-	overflow: auto;
+.b{
+	height:250px;
+	margin: 10px;
 }
