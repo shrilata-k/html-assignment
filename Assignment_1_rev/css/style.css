@@ -1,0 +1,89 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+a{
+	text-decoration: none;
+}
+.Header{
+	 background-color: Black;
+}
+.Container{
+	width: 940px;
+	overflow: hidden;
+	margin: 0px auto;
+}
+.Logo{
+	float:left;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 43px;
+}
+.Menu{
+	float: right;
+	color: white;
+	font-size: 20px;
+}
+.Menu li{
+	float:left;
+	list-style: none;
+	padding: 10px;
+}
+.Menu li a{
+	color: white;
+}
+.content .Container{
+text-align: center;
+}
+.Container1 h2{
+font-size: 40px;
+color: Gray;
+font-weight: bold;
+}
+.Container1 h2 span{
+color:blue;
+}
+.Container1 div{
+	font-size: 30px;
+	color: gray;
+}
+.Container1{
+	padding: 10px 0px;
+	border-bottom: 1px dotted;
+}
+.Container2{
+	padding: 10px 0px;
+	border-bottom: 1px dotted;
+	font-size: 20px;
+}
+.Container3{
+	overflow: hidden;
+}
+.Container3 li{
+	width: 273px;
+	margin: 10px;
+	padding: 10px;
+	background-color: blue;
+	float: left;
+	list-style: none;
+}
+.Container3 ul{
+	padding: 10px 0px;
+}
+.Container3 li h3{
+	border-bottom: 1px dotted;
+	font-size: 30px;
+}
+.Container3 a{
+	color: red;
+	background-color: yellow;
+	display: block;
+	padding:5px;
+	border-radius: 5px;
+}
+.Container3 li p{
+	font-size: 20px;
+	height: 345px;
+	margin: 10px 0px;
+}
