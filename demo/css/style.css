@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clear{
+	clear: both;
+	float: none !important;
+	padding: 0 !important;
+}
+.container{
+	width: 940px;
+	margin: 0 auto;
+}
+.menu{
+	background-color: #999;
+}
+.menu li{
+	list-style: none;
+	float: left;
+	border-left: 1px solid #ddd;
+}
+.menu li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+}
+.menu li a:hover{
+	background: #666;
+}
+.menu li.exception{
+	border:none;
+}

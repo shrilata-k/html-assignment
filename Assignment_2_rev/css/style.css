@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'lato';
+    src: url('../fonts/lato-regular-webfont.eot');
+    src: url('../fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lato-regular-webfont.woff') format('woff'),
+         url('../fonts/lato-regular-webfont.ttf') format('truetype'),
+         url('../fonts/lato-regular-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #f2f2f2;
+}
+.login-container{
+	width: 500px;
+	margin: 100px auto;
+	background: #fff;
+	box-shadow: 0 0 3px 0 #999;
+}
+.login-head{
+	background: #17a2d4;
+	font-size: 30px;
+	font-family: lato;
+	color: #f4f4f4;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 800;
+	padding: 30px 10px;
+	border-radius: 3px 3px 0 0;
+}
+.login-content{
+	padding: 20px 25px;
+}
+.login-content input{
+	display: block;
+	margin-bottom: 20px;
+	width: 436px;
+	background: #f6f6f6;
+	color: #969696;
+	border: 1px solid #e8e8e8;
+	font-size: 18px;
+	padding: 17px 5px;
+	border-radius: 3px;
+}
+.login-content button{
+	background: #17a2d4;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	width: 100%;
+	line-height: 60px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+.login-content button:hover{
+	background: #12779B;
+}
+.social-buttons a{
+	line-height: 60px;
+	float: left;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	background: #d34836;
+	width: 210px;
+	border-radius: 3px;
+}
+.social-buttons{
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.social-buttons a.facebook{
+	margin-right: 30px;
+	background: #3b5998;
+}
+.other-links{
+	overflow: hidden;
+}
+.other-links a{
+	text-decoration: none;
+	color: #666;
+	font-size: 18px;
+}
+.other-links .forgot-password{
+	float: left;
+}
+.other-links .sign-up{
+	float: right;
+}
