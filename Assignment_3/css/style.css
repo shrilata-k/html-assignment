@@ -14,6 +14,9 @@
 	margin: 0;
 	padding: 0;
 }
+body{
+    background: #f2f2f2;
+}
 .header{
     background-color: #17a2d4;
     text-transform: uppercase;
@@ -23,14 +26,34 @@
     font-size: 20px;
     color: #f4f4f4;
     padding-left: 20px;
-    display: inline-block;
+    font-weight: 800;
 }
 .header .menu{
-    margin:10px;
     overflow: hidden;
     text-align: right;
 }
 .header .menu a{
     text-decoration: none;
     float: right;
+    padding:10px;
+}
+.recovery-container{
+    width: 500px;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 0 3px 0 #999;
+    margin:100px auto;
+    padding: 20px 25px;
+}
+.recovery-container .recovery-heading{
+    font-size: 18px;
+    text-align: left;
+    color: #666;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.recovery-container input{
+    width:100%;
+    background-color: #f6f6f6;
+    padding-left: 10px;
 }
