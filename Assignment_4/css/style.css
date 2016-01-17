@@ -53,6 +53,8 @@ body{
     border-radius: 3px;
     width: 50%;
     float: left;
+    margin-bottom: 10px;
+    line-height: 50px;
 }
 .url{
     margin: 0px auto;
@@ -60,4 +62,19 @@ body{
     background-color: #f6f6f6;
     padding: 10px;
     text-align: center;
+    }
+.content .radio-button input{
+    width: 48px;
+    font-family: Lato;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.url a{
+    font-family: Lato;
+    color:  #000000;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
